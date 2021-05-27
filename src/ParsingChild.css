@@ -1,0 +1,22 @@
+
+.popularWrap{
+    display: flex;
+    flex-flow: row wrap;   
+}
+.popularWrapInner {
+    background: #fff;
+    margin-bottom: 1.1em;
+    overflow: hidden;
+    margin-right: 1.1rem;
+
+    box-shadow: 0.1rem 0.1rem 0.4rem 0 #B3B3B3;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 0 0 23.5rem;
+    min-height: 10rem;
+    position: relative;
+    justify-content: flex-start;
+    padding: 1.2rem;
+    transition: transform .2s ease-in-out,box-shadow .2s ease-in-out;
+}
